@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    padding: 30px;
+    border: 2px solid black;
+    margin: 50px auto;
+    width: 400px;
+    height: 400px;
+}
+.board {
+    position: absolute;
+    top: 38px;
+    left: 38px;
+    border: 1px solid black;
+    font-size: 0;
+    width: 322px;
+    height: 322px;
+}
+.board>div {
+    position: relative;
+    display: inline-block;
+    font-size: 1px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.white {
+}
+.black {
+    background-color: black;
+}
+.image {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
